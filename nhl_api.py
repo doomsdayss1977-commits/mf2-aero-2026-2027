@@ -98,12 +98,13 @@ class NHL:
                 })
         return players
 
-    def club_stats(self, abbr, season, force=False):
-        """Stats de saison régulière (gameType 2) pour tous les joueurs d'une équipe."""
-        raw = self._get(f"club-stats/{abbr}/{season}/2", f"clubstats_{abbr}_{season}", force)
+    def club_stats(self, abbr, season, force=False, game_type=2):
+        """Stats d'une équipe pour tous ses joueurs (gameType 2 = saison, 3 = séries)."""
+        suffix = "" if game_type == 2 else f"_g{game_type}"
+        raw = self._get(f"club-stats/{abbr}/{season}/{game_type}", f"clubstats_{abbr}_{season}{suffix}", force)
         out = {}
         for p in raw.get("skaters", []):
-            out[p["playerId"]] = {
+            out[p["playerId"]] = {"team": abbr,
                 "gp": p["gamesPlayed"], "g": p["goals"], "a": p["assists"], "pts": p["points"],
                 "pm": p.get("plusMinus", 0), "ppg": p.get("powerPlayGoals", 0),
                 "shg": p.get("shorthandedGoals", 0), "gwg": p.get("gameWinningGoals", 0),
@@ -111,7 +112,7 @@ class NHL:
                 "shots": p.get("shots", 0),
             }
         for p in raw.get("goalies", []):
-            out[p["playerId"]] = {
+            out[p["playerId"]] = {"team": abbr,
                 "gp": p["gamesPlayed"], "gs": p.get("gamesStarted", 0), "w": p["wins"], "l": p["losses"],
                 "otl": p.get("overtimeLosses", 0), "so": p.get("shutouts", 0), "gaa": p.get("goalsAgainstAverage"),
                 "svp": p.get("savePercentage"), "g": p.get("goals", 0), "a": p.get("assists", 0),
@@ -119,8 +120,9 @@ class NHL:
             }
         return out
 
-    def _each_team(self, fn, abbrs, progress):
-        """Appelle fn(abbr) pour chaque équipe en parallèle (I/O réseau) ; une équipe injoignable est ignorée."""
+    def _each_team(self, fn, abbrs, progress, strict=False):
+        """Appelle fn(abbr) pour chaque équipe en parallèle (I/O réseau) ; une équipe injoignable est ignorée,
+        sauf en mode strict où elle fait échouer l'appel (des stats partielles fausseraient le classement)."""
         def one(ab):
             try:
                 return fn(ab)
@@ -132,15 +134,28 @@ class NHL:
                 results.append(r)
                 if progress:
                     progress(i, len(abbrs))
+        missing = [ab for ab, r in zip(abbrs, results) if r is None]
+        if strict and missing:
+            raise RuntimeError(f"LNH injoignable pour {len(missing)} équipe(s) : {', '.join(missing)}")
         return [r for r in results if r is not None]
 
     def all_rosters(self, season, abbrs, force=False, progress=None):
         return [p for team in self._each_team(lambda ab: self.roster(ab, season, force), abbrs, progress) for p in team]
 
-    def all_club_stats(self, season, abbrs, force=False, progress=None):
+    def all_club_stats(self, season, abbrs, force=False, progress=None, game_type=2, strict=False):
+        """Stats de tous les joueurs ; un joueur échangé (présent chez deux équipes) voit ses compteurs additionnés."""
         stats = {}
-        for team in self._each_team(lambda ab: self.club_stats(ab, season, force), abbrs, progress):
-            stats.update(team)
+        for team in self._each_team(lambda ab: self.club_stats(ab, season, force, game_type), abbrs, progress, strict):
+            for pid, st in team.items():
+                if pid in stats:
+                    old = stats[pid]
+                    merged = {k: (old.get(k, 0) or 0) + (v or 0) if isinstance(v, (int, float)) and k not in ("gaa", "svp") else v
+                              for k, v in st.items()}
+                    merged["teams"] = old.get("teams", [old["team"]]) + [st["team"]]
+                    merged["team"] = st["team"]
+                    stats[pid] = merged
+                else:
+                    stats[pid] = st
         return stats
 
     def logo_svg(self, abbr):
