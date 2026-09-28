@@ -62,6 +62,13 @@ class NHL:
         f.write_text(json.dumps(data), "utf-8")
         return data
 
+    @staticmethod
+    def merge_players(new, old):
+        """Alignements à jour + joueurs connus qui n'y sont plus (renvoyés dans la LAH, blessés longue durée…),
+        marqués off : un joueur déjà repêché ne doit jamais disparaître des données."""
+        ids = {p["id"] for p in new}
+        return new + [dict(p, off=True) for p in old if p["id"] not in ids]
+
     def standings(self, date="now", force=False):
         """Classement à une date (YYYY-MM-DD ou 'now'), trié du 1er au dernier."""
         raw = self._get(f"standings/{date}", f"standings_{date}", force)["standings"]
