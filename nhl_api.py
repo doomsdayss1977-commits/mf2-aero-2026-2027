@@ -90,6 +90,17 @@ class NHL:
         out.sort(key=lambda x: x["rank"])
         return out
 
+    def week_games(self, force=False):
+        """{abbr: nombre de matchs (saison/séries) des 7 prochains jours}."""
+        out = {}
+        for day in self._get("schedule/now", "schedule_now", force).get("gameWeek", []):
+            for g in day.get("games", []):
+                if g.get("gameType") in (2, 3):
+                    for side in ("awayTeam", "homeTeam"):
+                        ab = g[side]["abbrev"]
+                        out[ab] = out.get(ab, 0) + 1
+        return out
+
     def roster(self, abbr, season, force=False):
         raw = self._get(f"roster/{abbr}/{season}", f"roster_{abbr}_{season}", force)
         players = []
