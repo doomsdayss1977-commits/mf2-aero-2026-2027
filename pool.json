@@ -1,6 +1,6 @@
 {
- "id": "91ebb8c928",
- "name": "MF2 aero 2026-2027",
+ "id": "17d8a981d5",
+ "name": "MF2 Aero 2026-2027",
  "rules": {
   "roster": {
    "F": 6,
@@ -9,6 +9,9 @@
   },
   "snake": true,
   "timerSec": 0,
+  "maxReplacements": 0,
+  "tradeDeadline": "",
+  "playoffs": true,
   "points": {
    "goal": 1.0,
    "assist": 1.0,
@@ -25,56 +28,65 @@
    "teamOtl": 0.0
   },
   "prevSeason": 20252026,
-  "season": 20262027
+  "season": 20262027,
+  "keepers": 0
  },
  "participants": [
   {
-   "id": "a8f59065",
-   "name": "DOMINIC",
+   "id": "99cc1e74",
+   "name": "Michael",
    "color": "#E63946",
-   "team": "BOS"
+   "team": "CAR",
+   "wishlist": []
   },
   {
-   "id": "bbcb966c",
-   "name": "DAVE",
+   "id": "c8272459",
+   "name": "Dave",
    "color": "#2A9D8F",
-   "team": "VGK"
+   "team": "EDM",
+   "wishlist": []
   },
   {
-   "id": "0fc081c9",
-   "name": "ALAIN",
+   "id": "8c0117e0",
+   "name": "David",
    "color": "#F4A261",
-   "team": "BUF"
+   "team": "UTA",
+   "wishlist": []
   },
   {
-   "id": "8a0de2a7",
-   "name": "MICHAEL",
+   "id": "fa667bf3",
+   "name": "Eric",
    "color": "#457B9D",
-   "team": "WSH"
+   "team": "FLA",
+   "wishlist": []
   },
   {
-   "id": "24172350",
-   "name": "PEDRO",
+   "id": "30916e52",
+   "name": "Caro",
    "color": "#8338EC",
-   "team": "COL"
+   "team": "COL",
+   "wishlist": []
   },
   {
-   "id": "8fdaec46",
-   "name": "PATRICK",
+   "id": "2295d147",
+   "name": "Dom",
    "color": "#FFBE0B",
-   "team": "SEA"
+   "team": "MTL",
+   "wishlist": []
   },
   {
-   "id": "cdfcc343",
-   "name": "STEPHANE",
+   "id": "0c0dd434",
+   "name": "Alain",
    "color": "#06D6A0",
-   "team": "LAK"
+   "team": "VGK",
+   "wishlist": []
   },
   {
-   "id": "df26fa43",
-   "name": "DAVID",
+   "id": "4b356704",
+   "name": "Pat W",
    "color": "#EF476F",
-   "team": "MTL"
+   "team": "SJS",
+   "wishlist": []
   }
  ],
  "picks": [
@@ -82,705 +94,705 @@
    "overall": 1,
    "round": 1,
    "slot": 1,
-   "participantId": "8fdaec46",
+   "participantId": "fa667bf3",
    "playerId": 8478402,
-   "at": "21:26:35"
+   "at": "17:35:33"
   },
   {
    "overall": 2,
    "round": 1,
    "slot": 2,
-   "participantId": "cdfcc343",
+   "participantId": "4b356704",
    "playerId": 8476453,
-   "at": "21:26:43"
+   "at": "17:39:08"
   },
   {
    "overall": 3,
    "round": 1,
    "slot": 3,
-   "participantId": "bbcb966c",
+   "participantId": "8c0117e0",
    "playerId": 8477492,
-   "at": "21:26:51"
+   "at": "17:39:24"
   },
   {
    "overall": 4,
    "round": 1,
    "slot": 4,
-   "participantId": "8a0de2a7",
+   "participantId": "c8272459",
    "playerId": 8484801,
-   "at": "21:26:57"
+   "at": "17:41:18"
   },
   {
    "overall": 5,
    "round": 1,
    "slot": 5,
-   "participantId": "a8f59065",
-   "playerId": 8476460,
-   "at": "21:27:01"
+   "participantId": "0c0dd434",
+   "playerId": 8477934,
+   "at": "17:43:41"
   },
   {
    "overall": 6,
    "round": 1,
    "slot": 6,
-   "participantId": "df26fa43",
+   "participantId": "2295d147",
    "playerId": 8480018,
-   "at": "21:27:10"
+   "at": "17:44:18"
   },
   {
    "overall": 7,
    "round": 1,
    "slot": 7,
-   "participantId": "0fc081c9",
-   "playerId": 8480039,
-   "at": "21:27:14"
+   "participantId": "99cc1e74",
+   "playerId": 8477956,
+   "at": "17:45:30"
   },
   {
    "overall": 8,
    "round": 1,
    "slot": 8,
-   "participantId": "24172350",
-   "playerId": 8477956,
-   "at": "21:27:17"
+   "participantId": "30916e52",
+   "playerId": 8480039,
+   "at": "17:47:38"
   },
   {
    "overall": 9,
    "round": 2,
    "slot": 1,
-   "participantId": "24172350",
-   "playerId": 8477934,
-   "at": "21:27:21"
+   "participantId": "30916e52",
+   "playerId": 8480803,
+   "at": "17:48:21"
   },
   {
    "overall": 10,
    "round": 2,
    "slot": 2,
-   "participantId": "0fc081c9",
-   "playerId": 8480027,
-   "at": "21:27:28"
+   "participantId": "99cc1e74",
+   "playerId": 8480069,
+   "at": "17:48:57"
   },
   {
    "overall": 11,
    "round": 2,
    "slot": 3,
-   "participantId": "df26fa43",
-   "playerId": 8478398,
-   "at": "21:27:33"
+   "participantId": "2295d147",
+   "playerId": 8483457,
+   "at": "17:49:39"
   },
   {
    "overall": 12,
    "round": 2,
    "slot": 4,
-   "participantId": "a8f59065",
-   "playerId": 8480803,
-   "at": "21:27:48"
+   "participantId": "0c0dd434",
+   "playerId": 8480027,
+   "at": "17:50:16"
   },
   {
    "overall": 13,
    "round": 2,
    "slot": 5,
-   "participantId": "8a0de2a7",
-   "playerId": 8478403,
-   "at": "21:27:51"
+   "participantId": "c8272459",
+   "playerId": 8480800,
+   "at": "17:50:52"
   },
   {
    "overall": 14,
    "round": 2,
    "slot": 6,
-   "participantId": "bbcb966c",
-   "playerId": 8478864,
-   "at": "21:27:54"
+   "participantId": "8c0117e0",
+   "playerId": 8478460,
+   "at": "17:52:34"
   },
   {
    "overall": 15,
    "round": 2,
    "slot": 7,
-   "participantId": "cdfcc343",
-   "playerId": 8477404,
-   "at": "21:27:56"
+   "participantId": "4b356704",
+   "playerId": 8480839,
+   "at": "17:55:50"
   },
   {
    "overall": 16,
    "round": 2,
    "slot": 8,
-   "participantId": "8fdaec46",
-   "playerId": 8481540,
-   "at": "21:28:00"
+   "participantId": "fa667bf3",
+   "playerId": 8476883,
+   "at": "17:56:40"
   },
   {
    "overall": 17,
    "round": 3,
    "slot": 1,
-   "participantId": "8fdaec46",
-   "playerId": 8479343,
-   "at": "21:28:04"
+   "participantId": "fa667bf3",
+   "playerId": 8478178,
+   "at": "17:57:44"
   },
   {
    "overall": 18,
    "round": 3,
    "slot": 2,
-   "participantId": "cdfcc343",
-   "playerId": 8482740,
-   "at": "21:28:08"
+   "participantId": "4b356704",
+   "playerId": 8482137,
+   "at": "17:58:22"
   },
   {
    "overall": 19,
    "round": 3,
    "slot": 3,
-   "participantId": "bbcb966c",
-   "playerId": 8481557,
-   "at": "21:28:11"
+   "participantId": "8c0117e0",
+   "playerId": 8478403,
+   "at": "17:59:37"
   },
   {
    "overall": 20,
    "round": 3,
    "slot": 4,
-   "participantId": "8a0de2a7",
-   "playerId": 8479337,
-   "at": "21:28:15"
+   "participantId": "c8272459",
+   "playerId": 8478864,
+   "at": "18:01:05"
   },
   {
    "overall": 21,
    "round": 3,
    "slot": 5,
-   "participantId": "a8f59065",
-   "playerId": 8476883,
-   "at": "21:28:18"
+   "participantId": "0c0dd434",
+   "playerId": 8479979,
+   "at": "18:01:49"
   },
   {
    "overall": 22,
    "round": 3,
    "slot": 6,
-   "participantId": "df26fa43",
-   "playerId": 8482116,
-   "at": "21:28:22"
+   "participantId": "2295d147",
+   "playerId": 8485366,
+   "at": "18:02:48"
   },
   {
    "overall": 23,
    "round": 3,
    "slot": 7,
-   "participantId": "0fc081c9",
-   "playerId": 8484144,
-   "at": "21:28:26"
+   "participantId": "99cc1e74",
+   "playerId": 8480313,
+   "at": "18:04:54"
   },
   {
    "overall": 24,
    "round": 3,
    "slot": 8,
-   "participantId": "24172350",
-   "playerId": 8482078,
-   "at": "21:28:29"
+   "participantId": "30916e52",
+   "playerId": 8481540,
+   "at": "18:05:56"
   },
   {
    "overall": 25,
    "round": 4,
    "slot": 1,
-   "participantId": "24172350",
-   "playerId": 8475158,
-   "at": "21:28:31"
+   "participantId": "30916e52",
+   "playerId": 8478398,
+   "at": "18:06:50"
   },
   {
    "overall": 26,
    "round": 4,
    "slot": 2,
-   "participantId": "0fc081c9",
-   "playerId": 8481559,
-   "at": "21:28:37"
+   "participantId": "99cc1e74",
+   "playerId": 8479323,
+   "at": "18:08:02"
   },
   {
    "overall": 27,
    "round": 4,
    "slot": 3,
-   "participantId": "df26fa43",
-   "playerId": 8479542,
-   "at": "21:28:40"
+   "participantId": "2295d147",
+   "playerId": 8478483,
+   "at": "18:08:40"
   },
   {
    "overall": 28,
    "round": 4,
    "slot": 4,
-   "participantId": "a8f59065",
-   "playerId": 8480839,
-   "at": "21:28:43"
+   "participantId": "0c0dd434",
+   "playerId": 8481542,
+   "at": "18:10:09"
   },
   {
    "overall": 29,
    "round": 4,
    "slot": 5,
-   "participantId": "8a0de2a7",
-   "playerId": 8475809,
-   "at": "21:28:46"
+   "participantId": "c8272459",
+   "playerId": 8477939,
+   "at": "18:11:15"
   },
   {
    "overall": 30,
    "round": 4,
    "slot": 6,
-   "participantId": "bbcb966c",
-   "playerId": 8476887,
-   "at": "21:28:49"
+   "participantId": "8c0117e0",
+   "playerId": 8479343,
+   "at": "18:11:25"
   },
   {
    "overall": 31,
    "round": 4,
    "slot": 7,
-   "participantId": "cdfcc343",
-   "playerId": 8477960,
-   "at": "21:28:51"
+   "participantId": "4b356704",
+   "playerId": 8484984,
+   "at": "18:12:31"
   },
   {
    "overall": 32,
    "round": 4,
    "slot": 8,
-   "participantId": "8fdaec46",
-   "playerId": 8483515,
-   "at": "21:28:55"
+   "participantId": "fa667bf3",
+   "playerId": 8482116,
+   "at": "18:13:41"
   },
   {
    "overall": 33,
    "round": 5,
    "slot": 1,
-   "participantId": "8fdaec46",
-   "playerId": 8482699,
-   "at": "21:28:57"
+   "participantId": "fa667bf3",
+   "playerId": 8474590,
+   "at": "18:14:04"
   },
   {
    "overall": 34,
    "round": 5,
    "slot": 2,
-   "participantId": "cdfcc343",
-   "playerId": 8480313,
-   "at": "21:29:00"
+   "participantId": "4b356704",
+   "playerId": 8476460,
+   "at": "18:16:52"
   },
   {
    "overall": 35,
    "round": 5,
    "slot": 3,
-   "participantId": "bbcb966c",
-   "playerId": 8476459,
-   "at": "21:29:03"
+   "participantId": "8c0117e0",
+   "playerId": 8481557,
+   "at": "18:18:05"
   },
   {
    "overall": 36,
    "round": 5,
    "slot": 4,
-   "participantId": "8a0de2a7",
-   "playerId": 8475913,
-   "at": "21:29:05"
+   "participantId": "c8272459",
+   "playerId": 8478550,
+   "at": "18:18:58"
   },
   {
    "overall": 37,
    "round": 5,
    "slot": 5,
-   "participantId": "a8f59065",
-   "playerId": 8483457,
-   "at": "21:29:08"
+   "participantId": "0c0dd434",
+   "playerId": 8477504,
+   "at": "18:19:35"
   },
   {
    "overall": 38,
    "round": 5,
    "slot": 6,
-   "participantId": "df26fa43",
-   "playerId": 8471675,
-   "at": "21:29:10"
+   "participantId": "2295d147",
+   "playerId": 8481559,
+   "at": "18:19:50"
   },
   {
    "overall": 39,
    "round": 5,
    "slot": 7,
-   "participantId": "0fc081c9",
-   "playerId": 8475166,
-   "at": "21:29:12"
+   "participantId": "99cc1e74",
+   "playerId": 8471675,
+   "at": "18:20:34"
   },
   {
    "overall": 40,
    "round": 5,
    "slot": 8,
-   "participantId": "24172350",
-   "playerId": 8478420,
-   "at": "21:29:15"
+   "participantId": "30916e52",
+   "playerId": 8477404,
+   "at": "18:22:00"
   },
   {
    "overall": 41,
    "round": 6,
    "slot": 1,
-   "participantId": "24172350",
-   "playerId": 8478460,
-   "at": "21:29:20"
+   "participantId": "30916e52",
+   "playerId": 8482740,
+   "at": "18:23:51"
   },
   {
    "overall": 42,
    "round": 6,
    "slot": 2,
-   "participantId": "0fc081c9",
-   "playerId": 8480069,
-   "at": "21:29:24"
+   "participantId": "99cc1e74",
+   "playerId": 8478420,
+   "at": "18:24:08"
   },
   {
    "overall": 43,
    "round": 6,
    "slot": 3,
-   "participantId": "df26fa43",
-   "playerId": 8478178,
-   "at": "21:29:30"
+   "participantId": "2295d147",
+   "playerId": 8479318,
+   "at": "18:24:50"
   },
   {
    "overall": 44,
    "round": 6,
    "slot": 4,
-   "participantId": "a8f59065",
-   "playerId": 8478445,
-   "at": "21:29:48"
+   "participantId": "0c0dd434",
+   "playerId": 8479345,
+   "at": "18:26:24"
   },
   {
    "overall": 45,
    "round": 6,
    "slot": 5,
-   "participantId": "8a0de2a7",
+   "participantId": "c8272459",
    "playerId": 8480036,
-   "at": "21:29:57"
+   "at": "18:27:41"
   },
   {
    "overall": 46,
    "round": 6,
    "slot": 6,
-   "participantId": "bbcb966c",
+   "participantId": "8c0117e0",
    "playerId": 8479325,
-   "at": "21:30:01"
+   "at": "18:28:28"
   },
   {
    "overall": 47,
    "round": 6,
    "slot": 7,
-   "participantId": "cdfcc343",
-   "playerId": 8481542,
-   "at": "21:30:04"
+   "participantId": "4b356704",
+   "playerId": 8485402,
+   "at": "18:29:56"
   },
   {
    "overall": 48,
    "round": 6,
    "slot": 8,
-   "participantId": "8fdaec46",
-   "playerId": 8479345,
-   "at": "21:30:06"
+   "participantId": "fa667bf3",
+   "playerId": 8483515,
+   "at": "18:31:51"
   },
   {
    "overall": 49,
    "round": 7,
    "slot": 1,
-   "participantId": "8fdaec46",
-   "playerId": 8479410,
-   "at": "21:30:10"
+   "participantId": "fa667bf3",
+   "playerId": 8474578,
+   "at": "18:34:09"
   },
   {
    "overall": 50,
    "round": 7,
    "slot": 2,
-   "participantId": "cdfcc343",
-   "playerId": 8474600,
-   "at": "21:30:13"
+   "participantId": "4b356704",
+   "playerId": 8484768,
+   "at": "18:35:21"
   },
   {
    "overall": 51,
    "round": 7,
    "slot": 3,
-   "participantId": "bbcb966c",
-   "playerId": 8482122,
-   "at": "21:30:15"
+   "participantId": "8c0117e0",
+   "playerId": 8483548,
+   "at": "18:35:33"
   },
   {
    "overall": 52,
    "round": 7,
    "slot": 4,
-   "participantId": "8a0de2a7",
-   "playerId": 8476906,
-   "at": "21:30:18"
+   "participantId": "c8272459",
+   "playerId": 8482487,
+   "at": "18:35:57"
   },
   {
    "overall": 53,
    "round": 7,
    "slot": 5,
-   "participantId": "a8f59065",
-   "playerId": 8479425,
-   "at": "21:30:23"
+   "participantId": "0c0dd434",
+   "playerId": 8474600,
+   "at": "18:36:32"
   },
   {
    "overall": 54,
    "round": 7,
    "slot": 6,
-   "participantId": "df26fa43",
-   "playerId": 8477447,
-   "at": "21:30:27"
+   "participantId": "2295d147",
+   "playerId": 8482105,
+   "at": "18:36:56"
   },
   {
    "overall": 55,
    "round": 7,
    "slot": 7,
-   "participantId": "0fc081c9",
-   "playerId": 8475171,
-   "at": "21:30:30"
+   "participantId": "99cc1e74",
+   "playerId": 8479410,
+   "at": "18:38:45"
   },
   {
    "overall": 56,
    "round": 7,
    "slot": 8,
-   "participantId": "24172350",
-   "playerId": 8475218,
-   "at": "21:30:33"
+   "participantId": "30916e52",
+   "playerId": 8480865,
+   "at": "18:42:04"
   },
   {
    "overall": 57,
    "round": 8,
    "slot": 1,
-   "participantId": "24172350",
-   "playerId": 8479323,
-   "at": "21:30:37"
+   "participantId": "30916e52",
+   "playerId": 8481605,
+   "at": "18:43:37"
   },
   {
    "overall": 58,
    "round": 8,
    "slot": 2,
-   "participantId": "0fc081c9",
-   "playerId": 8484258,
-   "at": "21:30:40"
+   "participantId": "99cc1e74",
+   "playerId": 8477447,
+   "at": "18:45:22"
   },
   {
    "overall": 59,
    "round": 8,
    "slot": 3,
-   "participantId": "df26fa43",
-   "playerId": 8481524,
-   "at": "21:30:42"
+   "participantId": "2295d147",
+   "playerId": 8479420,
+   "at": "18:45:43"
   },
   {
    "overall": 60,
    "round": 8,
    "slot": 4,
-   "participantId": "a8f59065",
-   "playerId": 8479420,
-   "at": "21:30:50"
+   "participantId": "0c0dd434",
+   "playerId": 8478427,
+   "at": "18:48:20"
   },
   {
    "overall": 61,
    "round": 8,
    "slot": 5,
-   "participantId": "8a0de2a7",
-   "playerId": 8478483,
-   "at": "21:30:57"
+   "participantId": "c8272459",
+   "playerId": 8479337,
+   "at": "18:49:30"
   },
   {
    "overall": 62,
    "round": 8,
    "slot": 6,
-   "participantId": "bbcb966c",
-   "playerId": 8477939,
-   "at": "21:31:03"
+   "participantId": "8c0117e0",
+   "playerId": 8479542,
+   "at": "18:50:37"
   },
   {
    "overall": 63,
    "round": 8,
    "slot": 7,
-   "participantId": "cdfcc343",
-   "playerId": 8477951,
-   "at": "21:31:07"
+   "participantId": "4b356704",
+   "playerId": 8485406,
+   "at": "18:51:32"
   },
   {
    "overall": 64,
    "round": 8,
    "slot": 8,
-   "participantId": "8fdaec46",
-   "playerId": 8477940,
-   "at": "21:31:14"
+   "participantId": "fa667bf3",
+   "playerId": 8475913,
+   "at": "18:52:32"
   },
   {
    "overall": 65,
    "round": 9,
    "slot": 1,
-   "participantId": "8fdaec46",
-   "playerId": 8485366,
-   "at": "21:31:20"
+   "participantId": "fa667bf3",
+   "playerId": 8476887,
+   "at": "18:52:45"
   },
   {
    "overall": 66,
    "round": 9,
    "slot": 2,
-   "participantId": "cdfcc343",
-   "playerId": 8474578,
-   "at": "21:31:23"
+   "participantId": "4b356704",
+   "playerId": 8476906,
+   "at": "18:53:50"
   },
   {
    "overall": 67,
    "round": 9,
    "slot": 3,
-   "participantId": "bbcb966c",
-   "playerId": 8480865,
-   "at": "21:31:26"
+   "participantId": "8c0117e0",
+   "playerId": 8479425,
+   "at": "18:54:47"
   },
   {
    "overall": 68,
    "round": 9,
    "slot": 4,
-   "participantId": "8a0de2a7",
-   "playerId": 8477504,
-   "at": "21:31:30"
+   "participantId": "c8272459",
+   "playerId": 8481524,
+   "at": "18:56:40"
   },
   {
    "overall": 69,
    "round": 9,
    "slot": 5,
-   "participantId": "a8f59065",
-   "playerId": 8478427,
-   "at": "21:31:35"
+   "participantId": "0c0dd434",
+   "playerId": 8480208,
+   "at": "18:59:51"
   },
   {
    "overall": 70,
    "round": 9,
    "slot": 6,
-   "participantId": "df26fa43",
-   "playerId": 8480208,
-   "at": "21:31:39"
+   "participantId": "2295d147",
+   "playerId": 8477493,
+   "at": "19:00:08"
   },
   {
    "overall": 71,
    "round": 9,
    "slot": 7,
-   "participantId": "0fc081c9",
-   "playerId": 8479407,
-   "at": "21:31:44"
+   "participantId": "99cc1e74",
+   "playerId": 8477933,
+   "at": "19:01:24"
   },
   {
    "overall": 72,
    "round": 9,
    "slot": 8,
-   "participantId": "24172350",
-   "playerId": 8482105,
-   "at": "21:31:49"
+   "participantId": "30916e52",
+   "playerId": 8474593,
+   "at": "19:03:09"
   },
   {
    "overall": 73,
    "round": 10,
    "slot": 1,
-   "participantId": "24172350",
-   "playerId": 8479979,
-   "at": "21:31:58"
+   "participantId": "30916e52",
+   "playerId": 8478397,
+   "at": "19:04:39"
   },
   {
    "overall": 74,
    "round": 10,
    "slot": 2,
-   "participantId": "0fc081c9",
-   "playerId": 8478872,
-   "at": "21:32:02"
+   "participantId": "99cc1e74",
+   "playerId": 8479314,
+   "at": "19:05:32"
   },
   {
    "overall": 75,
    "round": 10,
    "slot": 3,
-   "participantId": "df26fa43",
-   "playerId": 8480280,
-   "at": "21:32:05"
+   "participantId": "2295d147",
+   "playerId": 8476462,
+   "at": "19:06:42"
   },
   {
    "overall": 76,
    "round": 10,
    "slot": 4,
-   "participantId": "a8f59065",
-   "playerId": 8480830,
-   "at": "21:32:11"
+   "participantId": "0c0dd434",
+   "playerId": 8479407,
+   "at": "19:07:41"
   },
   {
    "overall": 77,
    "round": 10,
    "slot": 5,
-   "participantId": "8a0de2a7",
-   "playerId": 8481533,
-   "at": "21:32:17"
+   "participantId": "c8272459",
+   "playerId": 8483445,
+   "at": "19:09:11"
   },
   {
    "overall": 78,
    "round": 10,
    "slot": 6,
-   "participantId": "bbcb966c",
-   "playerId": 8481605,
-   "at": "21:32:22"
+   "participantId": "8c0117e0",
+   "playerId": 8482078,
+   "at": "19:10:56"
   },
   {
    "overall": 79,
    "round": 10,
    "slot": 7,
-   "participantId": "cdfcc343",
-   "playerId": 8478407,
-   "at": "21:32:27"
+   "participantId": "4b356704",
+   "playerId": 8480801,
+   "at": "19:11:53"
   },
   {
    "overall": 80,
    "round": 10,
    "slot": 8,
-   "participantId": "8fdaec46",
-   "playerId": 8482730,
-   "at": "21:32:30"
+   "participantId": "fa667bf3",
+   "playerId": 8475158,
+   "at": "19:14:11"
   },
   {
    "overall": 81,
    "round": 11,
    "slot": 1,
-   "participantId": "8fdaec46",
-   "playerId": 8483548,
-   "at": "21:32:35"
+   "participantId": "fa667bf3",
+   "playerId": 8482730,
+   "at": "19:14:27"
   },
   {
    "overall": 82,
    "round": 11,
    "slot": 2,
-   "participantId": "cdfcc343",
-   "playerId": 8480014,
-   "at": "21:32:41"
+   "participantId": "4b356704",
+   "playerId": 8478407,
+   "at": "19:15:26"
   },
   {
    "overall": 83,
    "round": 11,
    "slot": 3,
-   "participantId": "bbcb966c",
-   "playerId": 8482487,
-   "at": "21:32:46"
+   "participantId": "8c0117e0",
+   "playerId": 8475167,
+   "at": "19:17:17"
   },
   {
    "overall": 84,
    "round": 11,
    "slot": 4,
-   "participantId": "8a0de2a7",
-   "playerId": 8480807,
-   "at": "21:32:51"
+   "participantId": "c8272459",
+   "playerId": 8484873,
+   "at": "19:18:24"
   },
   {
    "overall": 85,
    "round": 11,
    "slot": 5,
-   "participantId": "a8f59065",
-   "playerId": 8479987,
-   "at": "21:32:56"
+   "participantId": "0c0dd434",
+   "playerId": 8477960,
+   "at": "19:19:15"
   },
   {
    "overall": 86,
    "round": 11,
    "slot": 6,
-   "participantId": "df26fa43",
-   "playerId": 8480817,
-   "at": "21:33:02"
+   "participantId": "2295d147",
+   "playerId": 8475809,
+   "at": "19:20:02"
   },
   {
    "overall": 87,
    "round": 11,
    "slot": 7,
-   "participantId": "0fc081c9",
-   "playerId": 8478854,
-   "at": "21:33:05"
+   "participantId": "99cc1e74",
+   "playerId": 8476459,
+   "at": "19:21:50"
   },
   {
    "overall": 88,
    "round": 11,
    "slot": 8,
-   "participantId": "24172350",
-   "playerId": 8478439,
-   "at": "21:33:11"
+   "participantId": "30916e52",
+   "playerId": 8480893,
+   "at": "19:22:36"
   }
  ],
  "teams": [
@@ -1394,16 +1406,41 @@
   }
  ],
  "order": [
-  "8fdaec46",
-  "cdfcc343",
-  "bbcb966c",
-  "8a0de2a7",
-  "a8f59065",
-  "df26fa43",
-  "0fc081c9",
-  "24172350"
+  "fa667bf3",
+  "4b356704",
+  "8c0117e0",
+  "c8272459",
+  "0c0dd434",
+  "2295d147",
+  "99cc1e74",
+  "30916e52"
  ],
  "players": {
+  "8485402": {
+   "id": 8485402,
+   "first": "Michael",
+   "last": "Misa",
+   "pos": "F",
+   "posCode": "C",
+   "num": 77,
+   "team": "SJS",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/SJS/8485402.png",
+   "birth": "2007-02-16",
+   "prev": {
+    "team": "SJS",
+    "gp": 45,
+    "g": 9,
+    "a": 12,
+    "pts": 21,
+    "pm": -2,
+    "ppg": 2,
+    "shg": 0,
+    "gwg": 1,
+    "otg": 1,
+    "pim": 10,
+    "shots": 58
+   }
+  },
   "8476459": {
    "id": 8476459,
    "first": "Mika",
@@ -1427,6 +1464,31 @@
     "otg": 0,
     "pim": 14,
     "shots": 215
+   }
+  },
+  "8479314": {
+   "id": 8479314,
+   "first": "Matthew",
+   "last": "Tkachuk",
+   "pos": "F",
+   "posCode": "L",
+   "num": 19,
+   "team": "FLA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/FLA/8479314.png",
+   "birth": "1997-12-11",
+   "prev": {
+    "team": "FLA",
+    "gp": 31,
+    "g": 13,
+    "a": 21,
+    "pts": 34,
+    "pm": -6,
+    "ppg": 4,
+    "shg": 0,
+    "gwg": 1,
+    "otg": 0,
+    "pim": 48,
+    "shots": 88
    }
   },
   "8480313": {
@@ -1535,7 +1597,7 @@
    "last": "Raddysh",
    "pos": "D",
    "posCode": "D",
-   "num": null,
+   "num": 43,
    "team": "TOR",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TOR/8478178.png",
    "birth": "1996-02-28",
@@ -1552,31 +1614,6 @@
     "otg": 1,
     "pim": 72,
     "shots": 212
-   }
-  },
-  "8477404": {
-   "id": 8477404,
-   "first": "Jake",
-   "last": "Guentzel",
-   "pos": "F",
-   "posCode": "C",
-   "num": 59,
-   "team": "TBL",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TBL/8477404.png",
-   "birth": "1994-10-06",
-   "prev": {
-    "team": "TBL",
-    "gp": 81,
-    "g": 38,
-    "a": 50,
-    "pts": 88,
-    "pm": 13,
-    "ppg": 8,
-    "shg": 2,
-    "gwg": 5,
-    "otg": 2,
-    "pim": 61,
-    "shots": 220
    }
   },
   "8479343": {
@@ -1602,6 +1639,31 @@
     "otg": 4,
     "pim": 38,
     "shots": 225
+   }
+  },
+  "8477404": {
+   "id": 8477404,
+   "first": "Jake",
+   "last": "Guentzel",
+   "pos": "F",
+   "posCode": "C",
+   "num": 59,
+   "team": "TBL",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TBL/8477404.png",
+   "birth": "1994-10-06",
+   "prev": {
+    "team": "TBL",
+    "gp": 81,
+    "g": 38,
+    "a": 50,
+    "pts": 88,
+    "pm": 13,
+    "ppg": 8,
+    "shg": 2,
+    "gwg": 5,
+    "otg": 2,
+    "pim": 61,
+    "shots": 220
    }
   },
   "8478427": {
@@ -1704,31 +1766,6 @@
     "shots": 187
    }
   },
-  "8481533": {
-   "id": 8481533,
-   "first": "Trevor",
-   "last": "Zegras",
-   "pos": "F",
-   "posCode": "C",
-   "num": 46,
-   "team": "PHI",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PHI/8481533.png",
-   "birth": "2001-03-20",
-   "prev": {
-    "team": "PHI",
-    "gp": 81,
-    "g": 26,
-    "a": 41,
-    "pts": 67,
-    "pm": 0,
-    "ppg": 10,
-    "shg": 0,
-    "gwg": 5,
-    "otg": 1,
-    "pim": 62,
-    "shots": 167
-   }
-  },
   "8476887": {
    "id": 8476887,
    "first": "Filip",
@@ -1829,31 +1866,6 @@
     "shots": 199
    }
   },
-  "8479987": {
-   "id": 8479987,
-   "first": "Morgan",
-   "last": "Geekie",
-   "pos": "F",
-   "posCode": "C",
-   "num": 39,
-   "team": "BOS",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/BOS/8479987.png",
-   "birth": "1998-07-20",
-   "prev": {
-    "team": "BOS",
-    "gp": 81,
-    "g": 39,
-    "a": 29,
-    "pts": 68,
-    "pm": -5,
-    "ppg": 12,
-    "shg": 0,
-    "gwg": 6,
-    "otg": 1,
-    "pim": 22,
-    "shots": 181
-   }
-  },
   "8480839": {
    "id": 8480839,
    "first": "Rasmus",
@@ -1877,31 +1889,6 @@
     "otg": 0,
     "pim": 76,
     "shots": 194
-   }
-  },
-  "8478872": {
-   "id": 8478872,
-   "first": "Karel",
-   "last": "Vejmelka",
-   "pos": "G",
-   "posCode": "G",
-   "num": 70,
-   "team": "UTA",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/UTA/8478872.png",
-   "birth": "1996-05-25",
-   "prev": {
-    "team": "UTA",
-    "gp": 64,
-    "gs": 63,
-    "w": 38,
-    "l": 20,
-    "otl": 3,
-    "so": 2,
-    "gaa": 2.745921,
-    "svp": 0.896679,
-    "g": 0,
-    "a": 2,
-    "saves": 1458
    }
   },
   "8481540": {
@@ -1954,31 +1941,6 @@
     "shots": 146
    }
   },
-  "8475218": {
-   "id": 8475218,
-   "first": "Mattias",
-   "last": "Ekholm",
-   "pos": "D",
-   "posCode": "D",
-   "num": 14,
-   "team": "EDM",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/EDM/8475218.png",
-   "birth": "1990-05-24",
-   "prev": {
-    "team": "EDM",
-    "gp": 82,
-    "g": 6,
-    "a": 35,
-    "pts": 41,
-    "pm": 32,
-    "ppg": 0,
-    "shg": 0,
-    "gwg": 2,
-    "otg": 0,
-    "pim": 30,
-    "shots": 131
-   }
-  },
   "8480865": {
    "id": 8480865,
    "first": "Noah",
@@ -2029,29 +1991,29 @@
     "shots": 186
    }
   },
-  "8479420": {
-   "id": 8479420,
-   "first": "Tage",
-   "last": "Thompson",
-   "pos": "F",
-   "posCode": "C",
-   "num": 72,
-   "team": "BUF",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/BUF/8479420.png",
-   "birth": "1997-10-30",
+  "8482487": {
+   "id": 8482487,
+   "first": "Jakub",
+   "last": "Dobes",
+   "pos": "G",
+   "posCode": "G",
+   "num": 75,
+   "team": "MTL",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/MTL/8482487.png",
+   "birth": "2001-05-27",
    "prev": {
-    "team": "BUF",
-    "gp": 81,
-    "g": 40,
-    "a": 41,
-    "pts": 81,
-    "pm": -6,
-    "ppg": 6,
-    "shg": 0,
-    "gwg": 5,
-    "otg": 0,
-    "pim": 35,
-    "shots": 272
+    "team": "MTL",
+    "gp": 43,
+    "gs": 42,
+    "w": 29,
+    "l": 10,
+    "otl": 4,
+    "so": 0,
+    "gaa": 2.779556,
+    "svp": 0.901432,
+    "g": 0,
+    "a": 0,
+    "saves": 1070
    }
   },
   "8480803": {
@@ -2079,6 +2041,31 @@
     "shots": 221
    }
   },
+  "8479420": {
+   "id": 8479420,
+   "first": "Tage",
+   "last": "Thompson",
+   "pos": "F",
+   "posCode": "C",
+   "num": 72,
+   "team": "BUF",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/BUF/8479420.png",
+   "birth": "1997-10-30",
+   "prev": {
+    "team": "BUF",
+    "gp": 81,
+    "g": 40,
+    "a": 41,
+    "pts": 81,
+    "pm": -6,
+    "ppg": 6,
+    "shg": 0,
+    "gwg": 5,
+    "otg": 0,
+    "pim": 35,
+    "shots": 272
+   }
+  },
   "8482730": {
    "id": 8482730,
    "first": "Brandt",
@@ -2102,31 +2089,6 @@
     "otg": 0,
     "pim": 63,
     "shots": 159
-   }
-  },
-  "8482487": {
-   "id": 8482487,
-   "first": "Jakub",
-   "last": "Dobes",
-   "pos": "G",
-   "posCode": "G",
-   "num": 75,
-   "team": "MTL",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/MTL/8482487.png",
-   "birth": "2001-05-27",
-   "prev": {
-    "team": "MTL",
-    "gp": 43,
-    "gs": 42,
-    "w": 29,
-    "l": 10,
-    "otl": 4,
-    "so": 0,
-    "gaa": 2.779556,
-    "svp": 0.901432,
-    "g": 0,
-    "a": 0,
-    "saves": 1070
    }
   },
   "8476460": {
@@ -2177,6 +2139,31 @@
     "otg": 0,
     "pim": 33,
     "shots": 137
+   }
+  },
+  "8475167": {
+   "id": 8475167,
+   "first": "Victor",
+   "last": "Hedman",
+   "pos": "D",
+   "posCode": "D",
+   "num": 77,
+   "team": "TBL",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TBL/8475167.png",
+   "birth": "1990-12-18",
+   "prev": {
+    "team": "TBL",
+    "gp": 33,
+    "g": 1,
+    "a": 16,
+    "pts": 17,
+    "pm": -1,
+    "ppg": 0,
+    "shg": 0,
+    "gwg": 0,
+    "otg": 0,
+    "pim": 10,
+    "shots": 50
    }
   },
   "8482105": {
@@ -2354,6 +2341,31 @@
     "shots": 109
    }
   },
+  "8477933": {
+   "id": 8477933,
+   "first": "Sam",
+   "last": "Reinhart",
+   "pos": "F",
+   "posCode": "C",
+   "num": 13,
+   "team": "FLA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/FLA/8477933.png",
+   "birth": "1995-11-06",
+   "prev": {
+    "team": "FLA",
+    "gp": 64,
+    "g": 29,
+    "a": 32,
+    "pts": 61,
+    "pm": -18,
+    "ppg": 11,
+    "shg": 3,
+    "gwg": 6,
+    "otg": 1,
+    "pim": 10,
+    "shots": 166
+   }
+  },
   "8485366": {
    "id": 8485366,
    "first": "Matthew",
@@ -2404,29 +2416,33 @@
     "shots": 176
    }
   },
-  "8475171": {
-   "id": 8475171,
-   "first": "Oliver",
-   "last": "Ekman-Larsson",
-   "pos": "D",
-   "posCode": "D",
-   "num": 95,
-   "team": "TOR",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TOR/8475171.png",
-   "birth": "1991-07-17",
+  "8478550": {
+   "id": 8478550,
+   "first": "Artemi",
+   "last": "Panarin",
+   "pos": "F",
+   "posCode": "L",
+   "num": 10,
+   "team": "LAK",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/LAK/8478550.png",
+   "birth": "1991-10-30",
    "prev": {
-    "team": "TOR",
+    "team": "NYR",
     "gp": 78,
-    "g": 8,
-    "a": 31,
-    "pts": 39,
-    "pm": -6,
-    "ppg": 0,
+    "g": 28,
+    "a": 56,
+    "pts": 84,
+    "pm": -7,
+    "ppg": 4,
     "shg": 0,
-    "gwg": 0,
+    "gwg": 4,
     "otg": 0,
-    "pim": 70,
-    "shots": 108
+    "pim": 20,
+    "shots": 224,
+    "teams": [
+     "LAK",
+     "NYR"
+    ]
    }
   },
   "8477960": {
@@ -2454,6 +2470,31 @@
     "shots": 226
    }
   },
+  "8484873": {
+   "id": 8484873,
+   "first": "Cole",
+   "last": "Hutson",
+   "pos": "D",
+   "posCode": "D",
+   "num": 44,
+   "team": "WSH",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/WSH/8484873.png",
+   "birth": "2006-06-28",
+   "prev": {
+    "team": "WSH",
+    "gp": 14,
+    "g": 3,
+    "a": 7,
+    "pts": 10,
+    "pm": -3,
+    "ppg": 1,
+    "shg": 0,
+    "gwg": 0,
+    "otg": 0,
+    "pim": 8,
+    "shots": 22
+   }
+  },
   "8479345": {
    "id": 8479345,
    "first": "Jakob",
@@ -2479,30 +2520,55 @@
     "shots": 221
    }
   },
-  "8478445": {
-   "id": 8478445,
-   "first": "Mathew",
-   "last": "Barzal",
+  "8483445": {
+   "id": 8483445,
+   "first": "Cutter",
+   "last": "Gauthier",
    "pos": "F",
-   "posCode": "C",
-   "num": 13,
-   "team": "NYI",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/NYI/8478445.png",
-   "birth": "1997-05-26",
+   "posCode": "L",
+   "num": 61,
+   "team": "ANA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/ANA/8483445.png",
+   "birth": "2004-01-19",
    "prev": {
-    "gp": 81,
-    "g": 19,
-    "a": 53,
-    "pts": 72,
-    "pm": 10,
-    "ppg": 2,
+    "team": "ANA",
+    "gp": 76,
+    "g": 41,
+    "a": 28,
+    "pts": 69,
+    "pm": -2,
+    "ppg": 11,
     "shg": 0,
-    "gwg": 4,
-    "otg": 2,
-    "pim": 61,
-    "shots": 184
-   },
-   "off": true
+    "gwg": 7,
+    "otg": 1,
+    "pim": 28,
+    "shots": 285
+   }
+  },
+  "8484768": {
+   "id": 8484768,
+   "first": "Zayne",
+   "last": "Parekh",
+   "pos": "D",
+   "posCode": "D",
+   "num": 19,
+   "team": "CGY",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/CGY/8484768.png",
+   "birth": "2006-02-15",
+   "prev": {
+    "team": "CGY",
+    "gp": 37,
+    "g": 4,
+    "a": 5,
+    "pts": 9,
+    "pm": -9,
+    "ppg": 3,
+    "shg": 0,
+    "gwg": 1,
+    "otg": 0,
+    "pim": 8,
+    "shots": 49
+   }
   },
   "8479323": {
    "id": 8479323,
@@ -2554,6 +2620,31 @@
     "saves": 1234
    }
   },
+  "8479318": {
+   "id": 8479318,
+   "first": "Auston",
+   "last": "Matthews",
+   "pos": "F",
+   "posCode": "C",
+   "num": 34,
+   "team": "TOR",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TOR/8479318.png",
+   "birth": "1997-09-17",
+   "prev": {
+    "team": "TOR",
+    "gp": 60,
+    "g": 27,
+    "a": 26,
+    "pts": 53,
+    "pm": -4,
+    "ppg": 5,
+    "shg": 0,
+    "gwg": 3,
+    "otg": 1,
+    "pim": 18,
+    "shots": 227
+   }
+  },
   "8476883": {
    "id": 8476883,
    "first": "Andrei",
@@ -2577,31 +2668,6 @@
     "g": 0,
     "a": 2,
     "saves": 1353
-   }
-  },
-  "8480014": {
-   "id": 8480014,
-   "first": "Gabriel",
-   "last": "Vilardi",
-   "pos": "F",
-   "posCode": "C",
-   "num": 13,
-   "team": "WPG",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/WPG/8480014.png",
-   "birth": "1999-08-16",
-   "prev": {
-    "team": "WPG",
-    "gp": 82,
-    "g": 30,
-    "a": 39,
-    "pts": 69,
-    "pm": -12,
-    "ppg": 13,
-    "shg": 0,
-    "gwg": 2,
-    "otg": 0,
-    "pim": 24,
-    "shots": 150
    }
   },
   "8482078": {
@@ -2629,31 +2695,6 @@
     "shots": 173
    }
   },
-  "8484258": {
-   "id": 8484258,
-   "first": "Sam",
-   "last": "Malinski",
-   "pos": "D",
-   "posCode": "D",
-   "num": 70,
-   "team": "COL",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/COL/8484258.png",
-   "birth": "1998-07-27",
-   "prev": {
-    "team": "COL",
-    "gp": 82,
-    "g": 8,
-    "a": 32,
-    "pts": 40,
-    "pm": 43,
-    "ppg": 0,
-    "shg": 0,
-    "gwg": 1,
-    "otg": 0,
-    "pim": 22,
-    "shots": 164
-   }
-  },
   "8479325": {
    "id": 8479325,
    "first": "Charlie",
@@ -2677,6 +2718,31 @@
     "otg": 1,
     "pim": 62,
     "shots": 111
+   }
+  },
+  "8480801": {
+   "id": 8480801,
+   "first": "Brady",
+   "last": "Tkachuk",
+   "pos": "F",
+   "posCode": "L",
+   "num": 8,
+   "team": "FLA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/FLA/8480801.png",
+   "birth": "1999-09-16",
+   "prev": {
+    "team": "OTT",
+    "gp": 60,
+    "g": 22,
+    "a": 37,
+    "pts": 59,
+    "pm": 4,
+    "ppg": 5,
+    "shg": 1,
+    "gwg": 3,
+    "otg": 1,
+    "pim": 71,
+    "shots": 221
    }
   },
   "8480039": {
@@ -2752,6 +2818,56 @@
     "otg": 0,
     "pim": 33,
     "shots": 167
+   }
+  },
+  "8485406": {
+   "id": 8485406,
+   "first": "Porter",
+   "last": "Martone",
+   "pos": "F",
+   "posCode": "R",
+   "num": 94,
+   "team": "PHI",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PHI/8485406.png",
+   "birth": "2006-10-26",
+   "prev": {
+    "team": "PHI",
+    "gp": 9,
+    "g": 4,
+    "a": 6,
+    "pts": 10,
+    "pm": 4,
+    "ppg": 2,
+    "shg": 0,
+    "gwg": 1,
+    "otg": 1,
+    "pim": 6,
+    "shots": 32
+   }
+  },
+  "8484984": {
+   "id": 8484984,
+   "first": "Ivan",
+   "last": "Demidov",
+   "pos": "F",
+   "posCode": "R",
+   "num": 93,
+   "team": "MTL",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/MTL/8484984.png",
+   "birth": "2005-12-10",
+   "prev": {
+    "team": "MTL",
+    "gp": 82,
+    "g": 19,
+    "a": 43,
+    "pts": 62,
+    "pm": 3,
+    "ppg": 7,
+    "shg": 0,
+    "gwg": 4,
+    "otg": 0,
+    "pim": 34,
+    "shots": 127
    }
   },
   "8476906": {
@@ -2879,6 +2995,35 @@
     "shots": 287
    }
   },
+  "8480800": {
+   "id": 8480800,
+   "first": "Quinn",
+   "last": "Hughes",
+   "pos": "D",
+   "posCode": "D",
+   "num": 43,
+   "team": "MIN",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/MIN/8480800.png",
+   "birth": "1999-10-14",
+   "prev": {
+    "team": "VAN",
+    "gp": 74,
+    "g": 7,
+    "a": 69,
+    "pts": 76,
+    "pm": -4,
+    "ppg": 2,
+    "shg": 0,
+    "gwg": 1,
+    "otg": 0,
+    "pim": 32,
+    "shots": 187,
+    "teams": [
+     "MIN",
+     "VAN"
+    ]
+   }
+  },
   "8478402": {
    "id": 8478402,
    "first": "Connor",
@@ -2904,29 +3049,33 @@
     "shots": 306
    }
   },
-  "8482122": {
-   "id": 8482122,
-   "first": "Brock",
-   "last": "Faber",
+  "8478397": {
+   "id": 8478397,
+   "first": "Rasmus",
+   "last": "Andersson",
    "pos": "D",
    "posCode": "D",
-   "num": 7,
-   "team": "MIN",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/MIN/8482122.png",
-   "birth": "2002-08-22",
+   "num": 4,
+   "team": "VGK",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/VGK/8478397.png",
+   "birth": "1996-10-27",
    "prev": {
-    "team": "MIN",
-    "gp": 80,
-    "g": 15,
-    "a": 36,
-    "pts": 51,
-    "pm": 18,
-    "ppg": 1,
+    "team": "CGY",
+    "gp": 81,
+    "g": 17,
+    "a": 30,
+    "pts": 47,
+    "pm": 4,
+    "ppg": 6,
     "shg": 1,
-    "gwg": 1,
+    "gwg": 0,
     "otg": 0,
-    "pim": 39,
-    "shots": 173
+    "pim": 71,
+    "shots": 178,
+    "teams": [
+     "VGK",
+     "CGY"
+    ]
    }
   },
   "8478483": {
@@ -2954,29 +3103,29 @@
     "shots": 165
    }
   },
-  "8475809": {
-   "id": 8475809,
-   "first": "Scott",
-   "last": "Wedgewood",
+  "8474593": {
+   "id": 8474593,
+   "first": "Jacob",
+   "last": "Markstrom",
    "pos": "G",
    "posCode": "G",
-   "num": 41,
-   "team": "COL",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/COL/8475809.png",
-   "birth": "1992-08-14",
+   "num": 25,
+   "team": "FLA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/FLA/8474593.png",
+   "birth": "1990-01-31",
    "prev": {
-    "team": "COL",
-    "gp": 45,
+    "team": "NJD",
+    "gp": 44,
     "gs": 43,
-    "w": 31,
-    "l": 6,
-    "otl": 6,
-    "so": 4,
-    "gaa": 2.02427,
-    "svp": 0.921317,
+    "w": 23,
+    "l": 19,
+    "otl": 1,
+    "so": 1,
+    "gaa": 3.066018,
+    "svp": 0.883199,
     "g": 0,
-    "a": 1,
-    "saves": 1007
+    "a": 4,
+    "saves": 983
    }
   },
   "8478460": {
@@ -3002,6 +3151,56 @@
     "otg": 0,
     "pim": 18,
     "shots": 260
+   }
+  },
+  "8475809": {
+   "id": 8475809,
+   "first": "Scott",
+   "last": "Wedgewood",
+   "pos": "G",
+   "posCode": "G",
+   "num": 41,
+   "team": "COL",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/COL/8475809.png",
+   "birth": "1992-08-14",
+   "prev": {
+    "team": "COL",
+    "gp": 45,
+    "gs": 43,
+    "w": 31,
+    "l": 6,
+    "otl": 6,
+    "so": 4,
+    "gaa": 2.02427,
+    "svp": 0.921317,
+    "g": 0,
+    "a": 1,
+    "saves": 1007
+   }
+  },
+  "8482137": {
+   "id": 8482137,
+   "first": "Yaroslav",
+   "last": "Askarov",
+   "pos": "G",
+   "posCode": "G",
+   "num": 30,
+   "team": "SJS",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/SJS/8482137.png",
+   "birth": "2002-06-16",
+   "prev": {
+    "team": "SJS",
+    "gp": 47,
+    "gs": 47,
+    "w": 21,
+    "l": 20,
+    "otl": 4,
+    "so": 0,
+    "gaa": 3.627984,
+    "svp": 0.883669,
+    "g": 0,
+    "a": 0,
+    "saves": 1185
    }
   },
   "8478420": {
@@ -3054,31 +3253,6 @@
     "shots": 130
    }
   },
-  "8477951": {
-   "id": 8477951,
-   "first": "Nick",
-   "last": "Schmaltz",
-   "pos": "F",
-   "posCode": "C",
-   "num": 8,
-   "team": "UTA",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/UTA/8477951.png",
-   "birth": "1996-02-23",
-   "prev": {
-    "team": "UTA",
-    "gp": 82,
-    "g": 33,
-    "a": 41,
-    "pts": 74,
-    "pm": 17,
-    "ppg": 11,
-    "shg": 2,
-    "gwg": 9,
-    "otg": 1,
-    "pim": 28,
-    "shots": 206
-   }
-  },
   "8481605": {
    "id": 8481605,
    "first": "Jackson",
@@ -3129,104 +3303,45 @@
     "shots": 228
    }
   },
-  "8480280": {
-   "id": 8480280,
-   "first": "Jeremy",
-   "last": "Swayman",
-   "pos": "G",
-   "posCode": "G",
-   "num": 1,
-   "team": "BOS",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/BOS/8480280.png",
-   "birth": "1998-11-24",
-   "prev": {
-    "team": "BOS",
-    "gp": 55,
-    "gs": 54,
-    "w": 31,
-    "l": 18,
-    "otl": 4,
-    "so": 2,
-    "gaa": 2.707645,
-    "svp": 0.907702,
-    "g": 0,
-    "a": 0,
-    "saves": 1426
-   }
-  },
-  "8480807": {
-   "id": 8480807,
-   "first": "Mattias",
-   "last": "Samuelsson",
-   "pos": "D",
-   "posCode": "D",
-   "num": 23,
-   "team": "BUF",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/BUF/8480807.png",
-   "birth": "2000-03-14",
-   "prev": {
-    "team": "BUF",
-    "gp": 78,
-    "g": 13,
-    "a": 28,
-    "pts": 41,
-    "pm": 41,
-    "ppg": 0,
-    "shg": 1,
-    "gwg": 3,
-    "otg": 1,
-    "pim": 28,
-    "shots": 109
-   }
-  },
-  "8482699": {
-   "id": 8482699,
-   "first": "Dylan",
-   "last": "Guenther",
-   "pos": "F",
-   "posCode": "R",
-   "num": 11,
-   "team": "UTA",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/UTA/8482699.png",
-   "birth": "2003-04-10",
-   "prev": {
-    "team": "UTA",
-    "gp": 79,
-    "g": 40,
-    "a": 33,
-    "pts": 73,
-    "pm": 7,
-    "ppg": 9,
-    "shg": 0,
-    "gwg": 6,
-    "otg": 3,
-    "pim": 28,
-    "shots": 242
-   }
-  },
-  "8475166": {
-   "id": 8475166,
-   "first": "John",
-   "last": "Tavares",
+  "8477493": {
+   "id": 8477493,
+   "first": "Aleksander",
+   "last": "Barkov",
    "pos": "F",
    "posCode": "C",
-   "num": 91,
-   "team": "TOR",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TOR/8475166.png",
-   "birth": "1990-09-20",
+   "num": 16,
+   "team": "FLA",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/FLA/8477493.png",
+   "birth": "1995-09-02",
+   "prev": null
+  },
+  "8474590": {
+   "id": 8474590,
+   "first": "John",
+   "last": "Carlson",
+   "pos": "D",
+   "posCode": "D",
+   "num": 74,
+   "team": "TBL",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TBL/8474590.png",
+   "birth": "1990-01-10",
    "prev": {
-    "team": "TOR",
-    "gp": 82,
-    "g": 31,
-    "a": 40,
-    "pts": 71,
-    "pm": -28,
-    "ppg": 12,
+    "team": "ANA",
+    "gp": 71,
+    "g": 14,
+    "a": 46,
+    "pts": 60,
+    "pm": 9,
+    "ppg": 2,
     "shg": 0,
-    "gwg": 4,
-    "otg": 2,
-    "pim": 28,
-    "shots": 192
+    "gwg": 1,
+    "otg": 0,
+    "pim": 32,
+    "shots": 153,
+    "teams": [
+     "WSH",
+     "ANA"
+    ]
    }
   },
   "8480027": {
@@ -3252,6 +3367,31 @@
     "otg": 1,
     "pim": 32,
     "shots": 294
+   }
+  },
+  "8480893": {
+   "id": 8480893,
+   "first": "Kirill",
+   "last": "Marchenko",
+   "pos": "F",
+   "posCode": "R",
+   "num": null,
+   "team": "TOR",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TOR/8480893.png",
+   "birth": "2000-07-21",
+   "prev": {
+    "team": "CBJ",
+    "gp": 76,
+    "g": 27,
+    "a": 40,
+    "pts": 67,
+    "pm": 7,
+    "ppg": 6,
+    "shg": 1,
+    "gwg": 7,
+    "otg": 1,
+    "pim": 32,
+    "shots": 218
    }
   },
   "8480036": {
@@ -3354,81 +3494,6 @@
     "shots": 206
    }
   },
-  "8480817": {
-   "id": 8480817,
-   "first": "K'Andre",
-   "last": "Miller",
-   "pos": "D",
-   "posCode": "D",
-   "num": 19,
-   "team": "CAR",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/CAR/8480817.png",
-   "birth": "2000-01-21",
-   "prev": {
-    "team": "CAR",
-    "gp": 72,
-    "g": 8,
-    "a": 29,
-    "pts": 37,
-    "pm": 7,
-    "ppg": 1,
-    "shg": 1,
-    "gwg": 1,
-    "otg": 0,
-    "pim": 56,
-    "shots": 123
-   }
-  },
-  "8480830": {
-   "id": 8480830,
-   "first": "Andrei",
-   "last": "Svechnikov",
-   "pos": "F",
-   "posCode": "R",
-   "num": 37,
-   "team": "CAR",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/CAR/8480830.png",
-   "birth": "2000-03-26",
-   "prev": {
-    "team": "CAR",
-    "gp": 79,
-    "g": 31,
-    "a": 39,
-    "pts": 70,
-    "pm": 1,
-    "ppg": 12,
-    "shg": 0,
-    "gwg": 3,
-    "otg": 0,
-    "pim": 66,
-    "shots": 203
-   }
-  },
-  "8478439": {
-   "id": 8478439,
-   "first": "Travis",
-   "last": "Konecny",
-   "pos": "F",
-   "posCode": "R",
-   "num": 11,
-   "team": "PHI",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PHI/8478439.png",
-   "birth": "1997-03-11",
-   "prev": {
-    "team": "PHI",
-    "gp": 77,
-    "g": 27,
-    "a": 41,
-    "pts": 68,
-    "pm": 14,
-    "ppg": 2,
-    "shg": 1,
-    "gwg": 2,
-    "otg": 0,
-    "pim": 59,
-    "shots": 168
-   }
-  },
   "8476453": {
    "id": 8476453,
    "first": "Nikita",
@@ -3454,31 +3519,6 @@
     "shots": 231
    }
   },
-  "8477940": {
-   "id": 8477940,
-   "first": "Nikolaj",
-   "last": "Ehlers",
-   "pos": "F",
-   "posCode": "L",
-   "num": 27,
-   "team": "CAR",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/CAR/8477940.png",
-   "birth": "1996-02-14",
-   "prev": {
-    "team": "CAR",
-    "gp": 82,
-    "g": 26,
-    "a": 45,
-    "pts": 71,
-    "pm": 8,
-    "ppg": 10,
-    "shg": 0,
-    "gwg": 6,
-    "otg": 1,
-    "pim": 14,
-    "shots": 207
-   }
-  },
   "8477956": {
    "id": 8477956,
    "first": "David",
@@ -3502,31 +3542,6 @@
     "otg": 1,
     "pim": 72,
     "shots": 261
-   }
-  },
-  "8478854": {
-   "id": 8478854,
-   "first": "Ryan",
-   "last": "Shea",
-   "pos": "D",
-   "posCode": "D",
-   "num": 6,
-   "team": "EDM",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/EDM/8478854.png",
-   "birth": "1997-02-11",
-   "prev": {
-    "team": "PIT",
-    "gp": 80,
-    "g": 6,
-    "a": 29,
-    "pts": 35,
-    "pm": 30,
-    "ppg": 0,
-    "shg": 0,
-    "gwg": 0,
-    "otg": 0,
-    "pim": 22,
-    "shots": 72
    }
   },
   "8477492": {
@@ -3579,30 +3594,30 @@
     "shots": 124
    }
   },
-  "8484144": {
-   "id": 8484144,
-   "first": "Connor",
-   "last": "Bedard",
-   "pos": "F",
-   "posCode": "C",
-   "num": 98,
-   "team": "CHI",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/CHI/8484144.png",
-   "birth": "2005-07-17",
+  "8476462": {
+   "id": 8476462,
+   "first": "Dougie",
+   "last": "Hamilton",
+   "pos": "D",
+   "posCode": "D",
+   "num": 7,
+   "team": "NJD",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/NJD/8476462.png",
+   "birth": "1993-06-17",
    "prev": {
-    "gp": 69,
-    "g": 30,
-    "a": 45,
-    "pts": 75,
-    "pm": -18,
-    "ppg": 7,
+    "team": "NJD",
+    "gp": 77,
+    "g": 12,
+    "a": 27,
+    "pts": 39,
+    "pm": -2,
+    "ppg": 4,
     "shg": 0,
-    "gwg": 5,
-    "otg": 1,
+    "gwg": 3,
+    "otg": 0,
     "pim": 50,
-    "shots": 226
-   },
-   "off": true
+    "shots": 203
+   }
   }
  },
  "moves": [],
